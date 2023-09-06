@@ -1,0 +1,23 @@
+$FiraCode: ('Regular', 400),
+           ('Medium', 500),
+           ('Bold', 700);
+
+
+@each $name,$weight in $FiraCode {
+    @font-face {
+        font-family: 'FiraCode';
+        src: url('@/assets/fonts/FiraCode-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
